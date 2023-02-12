@@ -2,7 +2,7 @@ quick_draw_data_set=["aircraft carrier","airplane","alarm clock","ambulance","an
 var random_number=Math.floor((Math.random()*quick_draw_data_set.length)+1)
 console.log(quick_draw_data_set[random_number])
 var sketch=quick_draw_data_set[random_number]
-document.getElementById("user_sketchname").value=sketch;
+document.getElementById("user_sketch").innerHTML=sketch;
 var timer_counter=0;
 var timer_check="";
 var drawn_sketch="";
